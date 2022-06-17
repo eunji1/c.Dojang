@@ -1,12 +1,14 @@
+// -128 65535 2147483647 18446744073709551615가 출력
+
 #include <stdio.h>
-/*(1)____________*/
+#include <stdint.h>
 
 int main()
 {
     int8_t num1 = INT8_MIN;
     uint16_t num2 = UINT16_MAX;
     int32_t num3 = INT32_MAX;
-    /*(2)_*/ num4 = UINT64_MAX;
+    uint64_t num4 = UINT64_MAX;
 
     printf("%d %u %d %llu\n", num1, num2, num3, num4);
 

@@ -2,7 +2,7 @@
 
 int main()
 {
-    char c1 = /*_*/;
+    char c1 = '\t';
 
     printf("Hello");
     printf("%c", c1);

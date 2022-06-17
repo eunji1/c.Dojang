@@ -1,9 +1,10 @@
+// 자료형의 크기가 8과 4로 출력
 #include <stdio.h>
 
 int main()
 {
-    /*(1)_*/ num1 = 0.4284;
-    /*(2)_*/ num2 = 2.7f;
+    double num1 = 0.4284;
+    float num2 = 2.7f;
 
     printf("num1의 크기: %d, num2의 크기: %d\n", sizeof(num1), sizeof(num2));
 
