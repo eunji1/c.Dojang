@@ -1,12 +1,12 @@
 #include <stdio.h>
-
+// "k???."? ???? ????
 int main()
 {
     char c1 = 'k';
 
-    if (c1 /*__*/)
+    if (c1 == 'k')
     {
-        printf("k¿‘¥œ¥Ÿ.\n");
+        printf("k???.\n");
     }
 
     return 0;

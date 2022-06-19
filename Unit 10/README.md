@@ -11,7 +11,7 @@ const int con1 = 10;
 그리고 상수(constant)는 변수처럼 리터럴이 저장된 공간
 
 ## 10.1 리터럴 사용하기
-```
+```c
 #include <stdio.h>
 
 int main()
@@ -26,7 +26,7 @@ int main()
 - 10진수는 숫자 그대로, 8진수는 숫자 앞에 0, 16진수는 0x을 붙임
 - 이때 printf에서 8진수를 출력하려면 서식 지정자로 %o를 사용 
 
-```
+```c
 #include <stdio.h>
 
 int main()
@@ -41,7 +41,7 @@ int main()
 
 ## 10.2 상수 사용하기
 - const 자료형 상수이름 = 값;
-```
+```c
 #include <stdio.h>
 
 int main()
@@ -57,7 +57,7 @@ int main()
 ```
 - 상수를 선언하는 방법은 변수를 선언하는 방법과 같으며 자료형 앞에 const만 붙여주면 됨
 - 단, 상수는 반드시 선언과 동시에 값을 할당하여 초기화해주어야 하며 초기화를 하지 않으면 컴파일 에러가 발생
-```
+```c
 #include <stdio.h>
 
 int main()
@@ -75,7 +75,7 @@ int main()
 
 ## 10.3 정수 리터럴 접미사 사용하기
 리터럴의 크기를 명확하게 표현하기 위해 접미사(suffix)를 사용
-```
+```c
 #include <stdio.h>
 
 int main()
@@ -114,7 +114,7 @@ int main()
 
 
 8진수와 16진수에도 접미사를 사용할 수 있다.
-```
+```c
 #include <stdio.h>
 
 int main()
@@ -135,7 +135,7 @@ int main()
 ```
 
 ## 10.4 실수 리터럴 접미사 사용하기
-```
+```c
 #include <stdio.h>
 
 int main()

@@ -8,7 +8,7 @@ int main()
     int num3;
 
     printf("정수 세 개를 입력하세요: ");
-    scanf(/*___________________________*/);
+    scanf("%d %d %d", &num1, &num2, &num3);
 
     printf("%d\n", num1);
     printf("%d\n", num2);

@@ -1,9 +1,9 @@
 #include <stdio.h>
-
+// 2와 7이 각 줄에 출력
 int main()
 {
-    int num1 = /*(1)*/;
-    int num2 = /*(2)*/;
+    int num1 = 2;
+    int num2 = 8;
     int num3;
     int num4;
 

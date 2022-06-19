@@ -1,8 +1,8 @@
 #include <stdio.h>
-
+// 다음 소스 코드를 완성하여 c가 출력되게 만드세요.
 int main()
 {
-    char c1 = /*_*/;
+    char c1 = 'c';
 
     if (c1 == 'a')
         printf("a\n");

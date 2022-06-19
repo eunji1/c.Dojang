@@ -1,17 +1,17 @@
 #include <stdio.h>
-/*(1)_____________*/
-
+#include <stdbool.h>
+// "?"? "??"? ???? ????
 int main()
 {
     bool b1 = true;
     bool b2 = false;
 
-    if (b1 && /*(2)*/)
-        printf("Âü\n");
+    if (b1 && b1)
+        printf("?\n");
     else
-        printf("°ÅÁş\n");
+        printf("??\n");
 
-    printf("%s\n", b2 || /*(3)*/ ? "Âü" : "°ÅÁş");
+    printf("%s\n", b2 || b2 ? "?" : "??");
 
     return 0;
 }

@@ -1,21 +1,21 @@
 #include <stdio.h>
-
+// if ???? printf? ?? "?"? ???? ????
 int main()
 {
     int num1 = 10;
     int num2 = 0;
 
-    if (num1 /*(1)*/ num1)
-        printf("Âü\n");
+    if (num1 && num1) // ?? ||
+        printf("?\n");
     else
-        printf("°ÅÁş\n");
+        printf("??\n");
 
-    if (num1 /*(2)*/ num2)
-        printf("Âü\n");
+    if (num1 || num2)
+        printf("?\n");
     else
-        printf("°ÅÁş\n");
+        printf("??\n");
 
-    printf("%s\n", !/*(3)*/ ? "Âü" : "°ÅÁş");
+    printf("%s\n", !num2 ? "?" : "??");
 
     return 0;
 }
