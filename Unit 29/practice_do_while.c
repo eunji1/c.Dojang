@@ -1,6 +1,6 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
-
+// 다음 소스 코드를 완성하여 문자 'q'를 입력하면 프로그램이 종료되게 만드세요.
 int main()
 {
     char c1;
@@ -8,7 +8,7 @@ int main()
     do
     {
         scanf("%c", &c1);
-    } while (/*_____*/);
+    } while (c1 != 'q');
 
     printf("프로그램 종료\n");
 
