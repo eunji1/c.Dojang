@@ -9,7 +9,7 @@ int main()
     char *s3 = malloc(sizeof(char) * 10);
 
     printf("문자열을 세 개 입력하세요: ");
-    /*__________________________*/
+    scanf("%s %s %s", s1, s2, s3);
 
     printf("%s\n", s1);
     printf("%s\n", s2);

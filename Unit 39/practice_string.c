@@ -2,9 +2,10 @@
 
 int main()
 {
-    /*____*/ = "Beethoven 9th Symphony";
+    char *s1 = "Beethoven 9th Symphony";
 
     printf("%s\n", s1);
 
     return 0;
 }
+// 또는 char s1[30]

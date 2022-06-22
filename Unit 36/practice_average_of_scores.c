@@ -8,10 +8,10 @@ int main()
 
     for (int i = 0; i < sizeof(scores) / sizeof(float); i++)
     {
-        /*(1)__________*/
+        sum += scores[i];
     }
 
-    /*(2)__________________________________________*/
+    average = sum / (sizeof(scores) / sizeof(float));
 
     printf("%f\n", average);
 
